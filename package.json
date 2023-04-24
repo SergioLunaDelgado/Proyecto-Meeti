@@ -1,0 +1,19 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "Udemy Bootstrap - Meeti",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss:build/css",
+    "purge": "purgecss --css build/css/style.css --content *.html --output build/css/app.css"
+  },
+  "author": "Sergio Luna",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.4"
+  }
+}
