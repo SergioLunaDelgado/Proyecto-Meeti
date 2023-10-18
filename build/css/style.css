@@ -10742,4 +10742,17 @@ textarea.form-control-lg {
   width: 10rem;
 }
 
+.grupos {
+  color: white;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .grupos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

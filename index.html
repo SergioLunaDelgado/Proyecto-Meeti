@@ -13,17 +13,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- De esta forma pesa 10 veces menos pero ya no se puede usar nuevas utilidades o componentes, para eso se tiene que volver a compilar BS  -->
     <link rel="stylesheet" href="build/css/app.css">
+    <link rel="shortcut icon" href="/build/img/logo.svg" type="image/x-icon">
+    <meta name="theme-color" content="#f34f51">
 </head>
 
 <body>
-    <header class="container-lg header">
+    <nav class="container d-flex justify-content-center justify-content-md-end align-items-center gap-3 my-5">
+        <a href="#" class="text-decoration-none border-end pe-3">Crear Grupo</a>
+        <a href="#" class="text-decoration-none">Iniciar Sesión</a>
+        <a href="#" class="text-decoration-none">Registrarme</a>
+    </nav>
+    <header class="container mb-5">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <img src="img/logo.svg" alt="Logo Meeti" class="logo">
-                <h1 class="display-2">Únete, la vida esta en un Meeti</h1>
+                <h1 class="display-3">Únete, la vida esta en un Meeti</h1>
                 <p class="fs-3">Únete a más de 300 mil organizadores que están compartiendo su pasión y contruyendo una
                     comunidad</p>
-                <a href="#" class="btn btn-danger mb-5 mb-md-5">
+                <a href="#" class="btn btn-danger mb-5">
                     <i class="bi bi-camera-video-fill"></i>
                     Inicia un grupo
                 </a>
@@ -67,7 +74,7 @@
     <main class="container-lg">
         <div class="d-flex justify-content-between align-items-center">
             <h2>Próximos Eventos</h2>
-            <a href="#" class="text-secondary text-decoration-none">Explora más eventos</a>
+            <a href="meeti.html" class="text-secondary text-decoration-none">Explora más eventos</a>
         </div>
         <div class="row mt-3">
             <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
@@ -148,6 +155,19 @@
             </div>
         </div>
     </main>
+
+    <section class="container grupos">
+        <div class="bg-danger text-end p-4">
+            <h3>Crea un Grupo</h3>
+            <p>Comparte lo que te gusta o tu pasión con los demás, crea tu proprio grupo y eventos; hoy mismo sin costos
+            </p>
+        </div>
+        <div class="bg-secondary p-4">
+            <h3>Únete a un Grupo</h3>
+            <p>Conoce personas con tus mismos gustos y pasiones, únete a un grupo ya existente y asiste a próximos
+                eventos</p>
+        </div>
+    </section>
 
     <section class="tiendas container-lg mt-5">
         <div class="row">
